@@ -1,0 +1,24 @@
+{
+  "name": "hearthstone-rest-client",
+  "version": "1.0.6",
+  "description": "A hearthstone rest client for mashape API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hudsonpereira/hearthstone-js-mashape-client.git"
+  },
+  "keywords": [
+    "hearthstone",
+    "blizzard",
+    "cards",
+    "ragnaros"
+  ],
+  "author": "Hudson Pereira",
+  "license": "MIT",
+  "dependencies": {
+    "node-rest-client": "^2.0.1"
+  }
+}
