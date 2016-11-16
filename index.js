@@ -10,7 +10,15 @@ var Hearthstone = function(apiKey){
         'X-Mashape-Key': apiKey,
         'Accept': 'application/json'
       }
-    }, callback);
+    }, function(data){
+      if (data.length == 1) {
+        data = data.pop();
+      }
+
+      if (callback) {
+        return callback(data);
+      }
+    });
   };
 
   return client;
