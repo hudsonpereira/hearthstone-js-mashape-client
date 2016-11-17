@@ -23,7 +23,7 @@ client.getCardByName("Alexstrasza", function(card){
 
 #### Full Json Return:
 
-```json
+```javascript
 { cardId: 'EX1_561',
   name: 'Alexstrasza',
   cardSet: 'Classic',
