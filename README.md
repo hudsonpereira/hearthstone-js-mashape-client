@@ -21,10 +21,34 @@ client.getCardByName("Alexstrasza", function(card){
 });
 ```
 
+#### Full Json Return:
+
+```json
+{ cardId: 'EX1_561',
+  name: 'Alexstrasza',
+  cardSet: 'Classic',
+  type: 'Minion',
+  faction: 'Neutral',
+  rarity: 'Legendary',
+  cost: 9,
+  attack: 8,
+  health: 8,
+  text: '<b>Battlecry:</b> Set a hero\'s remaining Health to 15.',
+  flavor: 'Alexstrasza the Life-Binder brings life and hope to everyone.  Except Deathwing.  And Malygos.  And Nekros.',
+  artist: 'Raymond Swanland',
+  collectible: true,
+  elite: true,
+  race: 'Dragon',
+  img: 'http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_561.png',
+  imgGold: 'http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_561_premium.gif',
+  locale: 'enUS',
+  mechanics: [ { name: 'Battlecry' } ] }
+```
+
 ### Methods available:
 
 - getCardByName
-
+- getCardsByClass
 
 ### Contributing
 
