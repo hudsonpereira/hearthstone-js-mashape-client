@@ -1,6 +1,6 @@
 {
   "name": "hearthstone-rest-client",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A hearthstone rest client for mashape API",
   "main": "index.js",
   "scripts": {
